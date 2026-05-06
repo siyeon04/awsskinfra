@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/siyeon04/awsskback.git'
+    repoURL: 'https://github.com/siyeon04/awsskinfra.git'
     targetRevision: HEAD
-    path: 'manifests/backend'
+    path: 'sample-app/infra/manifests/backend'
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
